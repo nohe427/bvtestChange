@@ -113,7 +113,7 @@ define(
               //Set the proxy. If the app is hosted use the default proxy. 
               if(this.config.proxyurl){
                 esri.config.defaults.io.proxyUrl = this.config.proxyurl;
-                esri.config.defaults.io.alwaysUseProxy = false;    
+                esri.config.defaults.io.alwaysUseProxy = true;    
               }
 
               //setup any helper services (geometry, print, routing, geocoding)
